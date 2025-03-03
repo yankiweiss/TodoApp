@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div
+      style="
+        text-align: center;
+        height: 200px;
+        background-color: rgb(159, 181, 225);
+      "
+    >
+      <h1 style="padding-top: 75px; color: rgb(176, 1, 1)">
+        <i>Todo List App</i>
+      </h1>
+    </div>
+
+    <br /><br />
+
+    <div style="display: flex; justify-content: center">
+      <div>
+        <input type="text" placeholder="Enter a To do" class="js-todo-input" />
+      </div>
+      <div>
+        <input type="date" class="js-date-input" onchange="addTodo()" />
+      </div>
+    </div>
+
+    <br /><br />
+    <table class="js-todo-table-items">
+        <thead class="js-table-header"></thead>
+      <tbody class="js-table-body"></tbody>
+    </table>
+
+    <script src="index.js"></script>
+  </body>
+</html>
