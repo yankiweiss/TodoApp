@@ -1,0 +1,29 @@
+body{
+    margin:  0px;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 250px;
+    margin: auto;
+    padding: 5px
+}
+
+.js-todo-input{
+    padding: 9px;
+    border: 3px solid rgb(136, 136, 136);
+    border-radius: 7%;
+    margin-right: 3px;
+    background-color: rgb(226, 235, 253);
+}
+
+.js-date-input{
+    padding: 8px;
+    border: 3px solid rgb(136, 136, 136);
+    border-radius: 7%;
+    font-size: 15px;
+    background-color: rgb(226, 235, 253);
+    color: rgb(52, 115, 240);
+
+}
